@@ -13,6 +13,7 @@ body {
 .container {
   width: 920px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 nav {
@@ -39,4 +40,33 @@ nav {
   font-size: 26px;
   line-height: 1.1;
   font-weight: lighter;
+}
+
+.cards {
+  margin-top: 50px;
+}
+
+.card {
+  font-size: 18px;
+}
+
+.card-review {
+  display: flex;
+}
+
+.card-review--text {
+  color: #918E9B;
+  margin: 0 8px;
+}
+
+.card-review--text__black {
+  color: #000;
+}
+
+.card-desc {
+  margin: 10px 0;
+}
+
+.card-price span {
+  font-weight: bold;
 }
