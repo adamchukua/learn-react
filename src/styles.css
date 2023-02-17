@@ -3,17 +3,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
 }
 
 .container {
-  width: 920px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
 }
 
 nav {
@@ -29,6 +25,10 @@ nav {
 .hero--img {
   display: block;
   margin: 26px auto 32px;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 792px;
+  box-sizing: border-box;
 }
 
 .hero--title {
@@ -44,9 +44,11 @@ nav {
 
 .cards {
   margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
 .card {
