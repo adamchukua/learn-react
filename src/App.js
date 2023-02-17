@@ -6,7 +6,7 @@ import "./styles.css"
 import data from "./data.js"
 
 export default function App() {
-  const cards = data.map(el => <Card key={el.id} img={el.coverImg} rating={el.stats.rating} reviewCount={el.stats.reviewCount} location={el.location} title={el.title} price={el.price} openSpots={el.openSpots}/>)
+  const cards = data.map(el => <Card key={el.id} {...el}/>)
 
   return (
     <div>
