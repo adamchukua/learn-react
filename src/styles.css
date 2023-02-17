@@ -53,6 +53,15 @@ nav {
 
 .card {
   font-size: 18px;
+  position: relative;
+}
+
+.card--badge {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  background: #fff;
+  padding: 5px 12px;
 }
 
 .card-review {
