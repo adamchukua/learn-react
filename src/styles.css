@@ -1,0 +1,42 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-bg {
+  height: 70px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #fff;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.header-left--img {
+  width: 50px;
+  margin-right: 9px;
+}
+
+.header-left--title {
+  font-weight: bold;
+  font-size: 28px;
+}
