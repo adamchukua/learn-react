@@ -69,10 +69,17 @@ body {
   border: none;
   font-size: 22px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .meme-form--btn img {
   width: 22px;
   position: relative;
   top: 5px;
+}
+
+.meme--img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
